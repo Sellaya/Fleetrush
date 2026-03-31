@@ -2,69 +2,69 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "A dynamic shot of a courier van in motion, blurred to convey speed.",
+      "description": "A futuristic delivery drone flying over a modern cityscape at dusk, representing speed and innovation.",
       "imageUrl": "https://picsum.photos/seed/fleetrush-hero/1920/1080",
-      "imageHint": "courier van"
+      "imageHint": "futuristic drone"
     },
     {
       "id": "services-hero",
-      "description": "A professional courier handing a package to a client at an office door.",
+      "description": "A smiling customer receiving a package from a friendly courier in a bright, modern setting.",
       "imageUrl": "https://picsum.photos/seed/services-hero/1600/600",
-      "imageHint": "courier delivery"
+      "imageHint": "happy customer"
     },
     {
       "id": "about-hero",
-      "description": "The FleetRush team collaborating in a modern office environment.",
+      "description": "A diverse logistics team collaborating around a holographic interface in a futuristic office.",
       "imageUrl": "https://picsum.photos/seed/about-hero/1600/600",
-      "imageHint": "office team"
+      "imageHint": "logistics team"
     },
     {
       "id": "pricing-hero",
-      "description": "A person using a laptop to get a delivery quote online.",
+      "description": "A person interacting with a clean, futuristic fintech application on a tablet to get a delivery quote.",
       "imageUrl": "https://picsum.photos/seed/pricing-hero/1600/600",
-      "imageHint": "online quote"
+      "imageHint": "fintech app"
     },
     {
       "id": "contact-hero",
-      "description": "A customer support representative with a headset, smiling and ready to help.",
+      "description": "A professional and friendly customer support agent in a modern call center.",
       "imageUrl": "https://picsum.photos/seed/contact-hero/1600/600",
       "imageHint": "customer support"
     },
     {
       "id": "faq-hero",
-      "description": "A collection of colorful question marks on a clean background.",
+      "description": "Minimalistic and clean abstract geometric shapes on a light background.",
       "imageUrl": "https://picsum.photos/seed/faq-hero/1600/600",
-      "imageHint": "question marks"
+      "imageHint": "abstract shapes"
     },
     {
       "id": "track-hero",
-      "description": "A map interface showing a delivery route with a pin.",
+      "description": "A sleek, futuristic map interface on a tablet showing a delivery route.",
       "imageUrl": "https://picsum.photos/seed/track-hero/1600/600",
-      "imageHint": "map tracking"
+      "imageHint": "delivery map"
     },
     {
       "id": "proof-hero",
-      "description": "A digital signature on a tablet screen for proof of delivery.",
+      "description": "A secure digital transaction confirming proof of delivery on a futuristic device.",
       "imageUrl": "https://picsum.photos/seed/proof-hero/1600/600",
-      "imageHint": "digital signature"
+      "imageHint": "secure delivery"
     },
     {
       "id": "motorbike",
-      "description": "A sleek motorbike used for fast urban deliveries.",
+      "description": "A futuristic electric scooter designed for quick urban deliveries.",
       "imageUrl": "https://picsum.photos/seed/motorbike/600/400",
-      "imageHint": "motorbike courier"
+      "imageHint": "electric scooter"
     },
     {
       "id": "car",
-      "description": "A modern car for medium-sized parcel deliveries.",
+      "description": "A modern, autonomous electric van for efficient parcel deliveries.",
       "imageUrl": "https://picsum.photos/seed/car/600/400",
-      "imageHint": "courier car"
+      "imageHint": "electric van"
     },
     {
       "id": "van",
-      "description": "A large delivery van for bulk and heavy goods.",
+      "description": "A large, sleek autonomous electric truck for heavy goods and freight.",
       "imageUrl": "https://picsum.photos/seed/van/600/400",
-      "imageHint": "delivery van"
+      "imageHint": "electric truck"
     }
   ]
 }

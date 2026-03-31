@@ -39,10 +39,10 @@ export default function Home() {
             individuals.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
+            <Button asChild size="lg">
               <Link href="/pricing">Get Instant Quote</Link>
             </Button>
-            <Button asChild size="lg" variant="secondary">
+            <Button asChild size="lg" variant="outline">
               <Link href="/pricing">Book Delivery</Link>
             </Button>
           </div>
@@ -171,7 +171,7 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
               {industries.map((industry) => (
                 <div key={industry.name} className="flex items-center gap-3">
-                  <div className="p-2 rounded-md bg-accent/10 text-accent">
+                  <div className="p-2 rounded-md bg-primary/10 text-primary">
                     <industry.icon className="w-6 h-6" />
                   </div>
                   <span className="font-semibold">{industry.name}</span>
@@ -195,7 +195,7 @@ export default function Home() {
             <Button
               asChild
               size="lg"
-              className="bg-accent text-accent-foreground hover:bg-accent/90"
+              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <Link href="/pricing">Book Your Courier in Seconds</Link>
             </Button>

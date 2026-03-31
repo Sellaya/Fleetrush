@@ -43,7 +43,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden md:flex bg-accent hover:bg-accent/90">
+          <Button asChild className="hidden md:flex">
             <Link href="/pricing">Book Now</Link>
           </Button>
 
@@ -84,7 +84,7 @@ export function Header() {
                   ))}
                 </nav>
                 <div className="mt-auto">
-                    <Button asChild size="lg" className="w-full bg-accent hover:bg-accent/90">
+                    <Button asChild size="lg" className="w-full">
                         <Link href="/pricing" onClick={() => setMenuOpen(false)}>Book Now</Link>
                     </Button>
                 </div>
