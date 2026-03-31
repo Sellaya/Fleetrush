@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A dynamic shot of a courier van in motion, blurred to convey speed.",
+      "imageUrl": "https://picsum.photos/seed/fleetrush-hero/1920/1080",
+      "imageHint": "courier van"
+    },
+    {
+      "id": "services-hero",
+      "description": "A professional courier handing a package to a client at an office door.",
+      "imageUrl": "https://picsum.photos/seed/services-hero/1600/600",
+      "imageHint": "courier delivery"
+    },
+    {
+      "id": "about-hero",
+      "description": "The FleetRush team collaborating in a modern office environment.",
+      "imageUrl": "https://picsum.photos/seed/about-hero/1600/600",
+      "imageHint": "office team"
+    },
+    {
+      "id": "pricing-hero",
+      "description": "A person using a laptop to get a delivery quote online.",
+      "imageUrl": "https://picsum.photos/seed/pricing-hero/1600/600",
+      "imageHint": "online quote"
+    },
+    {
+      "id": "contact-hero",
+      "description": "A customer support representative with a headset, smiling and ready to help.",
+      "imageUrl": "https://picsum.photos/seed/contact-hero/1600/600",
+      "imageHint": "customer support"
+    },
+    {
+      "id": "faq-hero",
+      "description": "A collection of colorful question marks on a clean background.",
+      "imageUrl": "https://picsum.photos/seed/faq-hero/1600/600",
+      "imageHint": "question marks"
+    },
+    {
+      "id": "track-hero",
+      "description": "A map interface showing a delivery route with a pin.",
+      "imageUrl": "https://picsum.photos/seed/track-hero/1600/600",
+      "imageHint": "map tracking"
+    },
+    {
+      "id": "proof-hero",
+      "description": "A digital signature on a tablet screen for proof of delivery.",
+      "imageUrl": "https://picsum.photos/seed/proof-hero/1600/600",
+      "imageHint": "digital signature"
+    },
+    {
+      "id": "motorbike",
+      "description": "A sleek motorbike used for fast urban deliveries.",
+      "imageUrl": "https://picsum.photos/seed/motorbike/600/400",
+      "imageHint": "motorbike courier"
+    },
+    {
+      "id": "car",
+      "description": "A modern car for medium-sized parcel deliveries.",
+      "imageUrl": "https://picsum.photos/seed/car/600/400",
+      "imageHint": "courier car"
+    },
+    {
+      "id": "van",
+      "description": "A large delivery van for bulk and heavy goods.",
+      "imageUrl": "https://picsum.photos/seed/van/600/400",
+      "imageHint": "delivery van"
+    }
+  ]
 }
