@@ -78,7 +78,7 @@ export default function Home() {
             {services.slice(0, 3).map((service) => (
               <Card
                 key={service.title}
-                className="hover:shadow-lg transition-shadow duration-300"
+                className="transition-all duration-300 hover:border-primary hover:scale-[1.02]"
               >
                 <CardHeader>
                   <div className="flex items-center gap-4">
@@ -195,7 +195,7 @@ export default function Home() {
             <Button
               asChild
               size="lg"
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
+              variant="secondary"
             >
               <Link href="/pricing">Book Your Courier in Seconds</Link>
             </Button>

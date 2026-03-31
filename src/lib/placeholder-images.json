@@ -2,69 +2,69 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "A futuristic delivery drone flying over a modern cityscape at dusk, representing speed and innovation.",
-      "imageUrl": "https://picsum.photos/seed/fleetrush-hero/1920/1080",
-      "imageHint": "futuristic drone"
+      "description": "A smiling woman in business attire signing for a package delivery from a uniformed courier at her modern office entrance.",
+      "imageUrl": "https://picsum.photos/seed/business-delivery/1920/1080",
+      "imageHint": "business delivery"
     },
     {
       "id": "services-hero",
-      "description": "A smiling customer receiving a package from a friendly courier in a bright, modern setting.",
-      "imageUrl": "https://picsum.photos/seed/services-hero/1600/600",
-      "imageHint": "happy customer"
+      "description": "A modern, white electric delivery van parked in front of a sleek, contemporary glass building.",
+      "imageUrl": "https://picsum.photos/seed/electric-van-service/1600/600",
+      "imageHint": "electric van"
     },
     {
       "id": "about-hero",
-      "description": "A diverse logistics team collaborating around a holographic interface in a futuristic office.",
-      "imageUrl": "https://picsum.photos/seed/about-hero/1600/600",
+      "description": "A diverse group of logistics professionals in a bright, modern office, collaborating around a large touchscreen displaying maps and data.",
+      "imageUrl": "https://picsum.photos/seed/logistics-team-2/1600/600",
       "imageHint": "logistics team"
     },
     {
       "id": "pricing-hero",
-      "description": "A person interacting with a clean, futuristic fintech application on a tablet to get a delivery quote.",
-      "imageUrl": "https://picsum.photos/seed/pricing-hero/1600/600",
-      "imageHint": "fintech app"
+      "description": "Close-up of a hand using a sleek tablet to calculate a shipping quote on a clean, modern app interface with a blurred city background.",
+      "imageUrl": "https://picsum.photos/seed/shipping-quote-app/1600/600",
+      "imageHint": "shipping quote"
     },
     {
       "id": "contact-hero",
-      "description": "A professional and friendly customer support agent in a modern call center.",
-      "imageUrl": "https://picsum.photos/seed/contact-hero/1600/600",
-      "imageHint": "customer support"
+      "description": "A friendly and professional customer service representative with a headset smiling warmly, with a blurred modern office environment in the background.",
+      "imageUrl": "https://picsum.photos/seed/customer-service-2/1600/600",
+      "imageHint": "customer service"
     },
     {
       "id": "faq-hero",
-      "description": "Minimalistic and clean abstract geometric shapes on a light background.",
-      "imageUrl": "https://picsum.photos/seed/faq-hero/1600/600",
-      "imageHint": "abstract shapes"
+      "description": "A clean, minimalist image featuring a single, large question mark made of glowing, abstract blue and teal geometric shapes on a dark background.",
+      "imageUrl": "https://picsum.photos/seed/faq-question/1600/600",
+      "imageHint": "abstract question"
     },
     {
       "id": "track-hero",
-      "description": "A sleek, futuristic map interface on a tablet showing a delivery route.",
-      "imageUrl": "https://picsum.photos/seed/track-hero/1600/600",
+      "description": "A detailed and futuristic map interface on a dark, sleek screen, showing a package's delivery route with glowing lines and data points.",
+      "imageUrl": "https://picsum.photos/seed/delivery-tracking-2/1600/600",
       "imageHint": "delivery map"
     },
     {
       "id": "proof-hero",
-      "description": "A secure digital transaction confirming proof of delivery on a futuristic device.",
-      "imageUrl": "https://picsum.photos/seed/proof-hero/1600/600",
-      "imageHint": "secure delivery"
+      "description": "A secure digital signature being captured on a modern tablet for proof of delivery, with a confirmation checkmark visible.",
+      "imageUrl": "https://picsum.photos/seed/digital-signature-2/1600/600",
+      "imageHint": "digital signature"
     },
     {
       "id": "motorbike",
-      "description": "A futuristic electric scooter designed for quick urban deliveries.",
-      "imageUrl": "https://picsum.photos/seed/motorbike/600/400",
-      "imageHint": "electric scooter"
+      "description": "A happy customer in a city environment receiving a small package from a courier on a sleek electric delivery scooter.",
+      "imageUrl": "https://picsum.photos/seed/scooter-delivery/600/400",
+      "imageHint": "customer delivery"
     },
     {
       "id": "car",
-      "description": "A modern, autonomous electric van for efficient parcel deliveries.",
-      "imageUrl": "https://picsum.photos/seed/car/600/400",
-      "imageHint": "electric van"
+      "description": "A professional courier loading packages into a modern electric car, with a focus on efficiency and care.",
+      "imageUrl": "https://picsum.photos/seed/electric-car-loading/600/400",
+      "imageHint": "courier car"
     },
     {
       "id": "van",
-      "description": "A large, sleek autonomous electric truck for heavy goods and freight.",
-      "imageUrl": "https://picsum.photos/seed/van/600/400",
-      "imageHint": "electric truck"
+      "description": "Two smiling couriers standing proudly in front of a large, modern electric delivery van, ready for the day's shipments.",
+      "imageUrl": "https://picsum.photos/seed/delivery-team/600/400",
+      "imageHint": "delivery team"
     }
   ]
 }

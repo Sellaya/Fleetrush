@@ -45,7 +45,7 @@ export default function ServicesPage() {
             {services.map((service) => (
               <Card
                 key={service.title}
-                className="flex flex-col hover:shadow-lg transition-shadow duration-300"
+                className="flex flex-col transition-all duration-300 hover:border-primary hover:scale-[1.02]"
               >
                 <CardHeader>
                   <div className="flex items-center gap-4">
@@ -85,7 +85,7 @@ export default function ServicesPage() {
                 (img) => img.id === vehicle.imageId
               );
               return (
-                <Card key={vehicle.name} className="overflow-hidden group">
+                <Card key={vehicle.name} className="overflow-hidden group transition-all duration-300 hover:border-primary hover:scale-[1.02]">
                   {vehicleImage && (
                     <div className="aspect-video overflow-hidden">
                       <Image
