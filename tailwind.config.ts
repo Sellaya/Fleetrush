@@ -10,16 +10,25 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1.25rem',
+        lg: '2rem',
+      },
       screens: {
-        '2xl': '1400px',
+        '2xl': '1280px',
       },
     },
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Space Grotesk', 'sans-serif'],
-        code: ['monospace'],
+        body: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        headline: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
+        code: ['ui-monospace', 'monospace'],
+      },
+      fontSize: {
+        'display': ['2.25rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
+        'display-md': ['2.75rem', { lineHeight: '1.08', letterSpacing: '-0.02em' }],
+        'display-lg': ['3.5rem', { lineHeight: '1.05', letterSpacing: '-0.025em' }],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -95,10 +104,15 @@ export default {
             height: '0',
           },
         },
+        'hero-trust-row': {
+          '0%': { opacity: '0', transform: 'translateY(1rem)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'hero-trust-row': 'hero-trust-row 0.75s cubic-bezier(0.22, 1, 0.36, 1) both',
       },
     },
   },

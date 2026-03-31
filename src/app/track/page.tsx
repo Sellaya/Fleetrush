@@ -1,50 +1,44 @@
-import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { PageHero } from '@/components/layout/page-hero';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { MapPin, Package, Clock, CheckCircle } from 'lucide-react';
+import { MapPin, Package, CheckCircle } from 'lucide-react';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'track-hero');
 
 export default function TrackPage() {
   return (
     <div className="flex flex-col">
-      <section className="relative w-full h-[40vh]">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-        )}
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative container mx-auto px-4 h-full flex flex-col items-center justify-center text-center text-white">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold">
-            Track Your Delivery
-          </h1>
-          <p className="mt-4 text-lg md:text-xl max-w-2xl">
-            Enter your tracking number to see the live status of your delivery.
-          </p>
-        </div>
-      </section>
+      {heroImage ? (
+        <PageHero
+          src={heroImage.imageUrl}
+          alt={heroImage.description}
+          title="Track your delivery"
+          description="Enter your tracking number to follow live progress from pickup to delivery."
+          badge="Tracking"
+        />
+      ) : null}
 
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <Card>
+      <section className="py-12 sm:py-16 md:py-24">
+        <div className="container max-w-3xl px-4">
+          <Card className="rounded-2xl border-border/80 shadow-sm">
             <CardHeader>
-              <CardTitle>Enter Tracking Number</CardTitle>
-              <CardDescription>
+              <CardTitle className="font-headline text-xl sm:text-2xl">Enter tracking number</CardTitle>
+              <CardDescription className="text-sm sm:text-base">
                 Your tracking number was provided in your booking confirmation email.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="flex w-full items-center space-x-2">
-                <Input type="text" placeholder="e.g., FR-12345678" className="text-base" />
-                <Button type="submit">Track</Button>
+              <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-center">
+                <Input
+                  type="text"
+                  placeholder="e.g., FR-12345678"
+                  className="h-12 min-h-[48px] flex-1 text-base"
+                />
+                <Button type="submit" className="h-12 min-h-[48px] w-full shrink-0 px-8 sm:w-auto">
+                  Track
+                </Button>
               </div>
             </CardContent>
           </Card>

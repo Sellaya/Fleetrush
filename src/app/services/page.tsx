@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { services, fleetDetails } from '@/lib/constants';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { PageHero } from '@/components/layout/page-hero';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'services-hero');
@@ -8,28 +9,16 @@ const heroImage = PlaceHolderImages.find((img) => img.id === 'services-hero');
 export default function ServicesPage() {
   return (
     <div className="flex flex-col">
-      <section className="relative w-full h-[40vh]">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-        )}
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative container mx-auto px-4 h-full flex flex-col items-center justify-center text-center text-white">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold">
-            Our Courier Services
-          </h1>
-          <p className="mt-4 text-lg md:text-xl max-w-2xl">
-            Flexible courier solutions tailored to different business and
-            personal delivery needs.
-          </p>
-        </div>
-      </section>
+      {heroImage ? (
+        <PageHero
+          src={heroImage.imageUrl}
+          alt={heroImage.description}
+          title="Our courier services"
+          description="Flexible solutions for urgent documents, parcels, and freight, with the vehicle and service level matched to your job."
+          variant="tall"
+          badge="What we deliver"
+        />
+      ) : null}
 
       <section id="service-breakdown" className="py-16 md:py-24">
         <div className="container mx-auto px-4">
@@ -93,8 +82,8 @@ export default function ServicesPage() {
                         alt={vehicleImage.description}
                         width={600}
                         height={400}
-                        className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
-                        data-ai-hint={vehicleImage.imageHint}
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>
                   )}
